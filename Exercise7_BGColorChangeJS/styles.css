@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,html{
+    width: 100%;
+}
+
+.webpage{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightblue;
+}
+button{
+    padding: 15px 30px;
+    font-size: 1rem;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    border-radius: 50px;
+    outline: none;
+    border: none;
+}
